@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for numb in range(100):
-    if numb == 99:
-        print(numb)
+for nb in range(100):
+    if nb == 99:
+        print(nb)
     else:
-        print("{}".format('0' + str(numb) if b < 10 else numb), end=", ")
+        print("{}".format('0' + str(nb) if nb < 10 else nb), end=", ")
