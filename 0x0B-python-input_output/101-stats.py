@@ -1,8 +1,6 @@
-#!/usr/bin/python3ads from standard input and computes metrics.
-
 """
-print the following after every ten lines or the input of ctrl D
-    - the files's total size at that intant
+print the following after every ten lines or the input
+    - the files's total size.
     - Count of read status codes up to that point.
 """
 
@@ -14,9 +12,31 @@ def print_stats(size, status_codes):
         size (int): the total amout of the read file size.
         status_codes (dict): the number of status code gathered.
     """
+
+
+
+
+
+    101-stats.py
+#!/usr/bin/python3
+"""
+print the following after every ten lines or the input of ctrl D
+    - the files's total size.
+    - Count of read status codes up to that point.
+"""
+
+
+def print_stats(size, status_codes):
+     """amount of printed metrics.
+
+    Args:
+        size (int): the total amout of the read file size.
+        status_codes (dict): the number of status code gathered.
+    """
     print("File size: {}".format(size))
     for key in sorted(status_codes):
         print("{}: {}".format(key, status_codes[key]))
+
 
 if __name__ == "__main__":
     import sys
