@@ -1,5 +1,6 @@
-# SQL - More queries
-At the end of this task the learning objective is to know,
+# 0x0E. SQL - More queries
+
+At the end of the task the learning objective is to know;
 How to create a new MySQL user
 How to manage privileges for a user to a database or table
 What’s a PRIMARY KEY
