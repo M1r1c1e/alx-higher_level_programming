@@ -5,4 +5,4 @@ function add (a, b) {
   return a + b;
 }
 const sum = add(a, b);
-console.log(`The sum of ${a} and ${b} is ${sum}.`);
+console.log(`${sum}`);
