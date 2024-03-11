@@ -9,4 +9,3 @@ if (args.length === 0) {
     const sortedArgs = args.sort((a, b) => b - a);
     console.log(sortedArgs[1]);
 }
-
