@@ -1,6 +1,4 @@
 #!/usr/bin/node
-//defines a square and inherits from Square of 5-square.js
-
 const squareRef = require('./5-square');
 
 class Square extends squareRef {
