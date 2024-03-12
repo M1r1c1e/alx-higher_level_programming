@@ -9,7 +9,6 @@ class Rectangle {
     }
   }
 
-// print rectangle using x
   print () {
     for (let i = 0; i < this.height; i++) {
       let sym = '';
@@ -20,13 +19,11 @@ class Rectangle {
     }
   }
 
-//  multiples the width and the height of the rectangle by 2
   double () {
     this.width *= 2;
     this.height *= 2;
   }
 
-// exchanges the width and the height of the rectangle
   rotate () {
     const temp = this.width;
     this.width = this.height;
