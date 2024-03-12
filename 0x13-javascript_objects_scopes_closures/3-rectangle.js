@@ -9,7 +9,6 @@ class Rectangle {
     }
   }
 
-// using character x to print rectangle
   print () {
     for (let i = 0; i < this.height; i++) {
       let sym = '';
