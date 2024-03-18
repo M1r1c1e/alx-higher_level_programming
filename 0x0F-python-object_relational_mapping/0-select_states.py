@@ -13,4 +13,4 @@ if __name__ == "__main__":
         print(state)
 
     cursor.close()
-    db.close() 
+    db.close()
