@@ -1,11 +1,11 @@
 #!/usr/bin/node
-// function that read from file
+// Read from file
 
-const file_con = require('fs');
-file_con.readFile(process.argv[2], 'utf-8',
+const filesys = require('fs');
+filesys.readFile(process.argv[2], 'utf-8',
   function (err, data) {
     if (err) {
-      console.error(err);
+      console.log(err);
       return;
     }
     console.log(data);
