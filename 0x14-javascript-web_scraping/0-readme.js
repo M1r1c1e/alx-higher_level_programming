@@ -1,8 +1,8 @@
 #!/usr/bin/node
-// Read from file
+// Read file content
 
-const filesys = require('fs');
-filesys.readFile(process.argv[2], 'utf-8',
+const filefs = require('fs');
+filefs.readFile(process.argv[2], 'utf-8',
   function (err, data) {
     if (err) {
       console.log(err);
