@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//display status of a code Of Get request
+// display status Of Get request
 
 const request = require('request');
 const url = process.argv[2];
